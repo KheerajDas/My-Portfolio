@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10200d"/>
+      <stop offset="100%" stop-color="#0b190a"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#g)"/>
+  <rect x="0.5" y="0.5" width="639" height="399" fill="none" stroke="#223018"/>
+  <g fill="none" stroke="#37481f" stroke-width="2">
+    <rect x="240" y="150" width="160" height="110" rx="8"/>
+    <circle cx="270" cy="180" r="10"/>
+    <path d="M240 240 L290 200 L330 230 L370 190 L400 225"/>
+  </g>
+  <text x="320" y="300" font-family="Inter, sans-serif" font-size="16" fill="#6c7862" text-anchor="middle">Project Thumbnail</text>
+</svg>

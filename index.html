@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kheeraj Das | Computer Science Student &amp; Web Developer</title>
+  <meta name="description"
+    content="Portfolio of Kheeraj Das — Computer Science student and web developer building clean, modern web applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">KD</span>
+        <span class="logo-text">PORTFOLIO</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="navMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Welcome to my portfolio</p>
+          <h1 class="hero-title">Hi, I'm Kheeraj Das <span class="wave">👋</span></h1>
+          <h2 class="hero-subtitle">Computer Science Student &amp; Web Developer</h2>
+          <p class="hero-bio">
+            I'm a Computer Science undergraduate with a strong foundation in programming, data structures, and
+            software engineering principles. I love turning ideas into clean, functional web applications and
+            interfaces that are both intuitive to use and enjoyable to build.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-outline">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/profile-photo.png" alt="Portrait of Kheeraj Das" width="520" height="650" />
+        </div>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- ============ ABOUT / EDUCATION SECTION ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">About</span>
+          <h2>Education &amp; Academics</h2>
+          <p class="section-desc">A quick look at my academic background and the coursework shaping my skills as a
+            developer.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-card card">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <span class="timeline-period">In Progress</span>
+              <h3>BS in Computer Science</h3>
+              <p class="timeline-org">Undergraduate Degree</p>
+              <p class="timeline-desc">
+                Building a strong foundation in computer science fundamentals while focusing on practical,
+                real-world web development skills.
+              </p>
+              <div class="badge-row">
+                <span class="badge">Web Engineering</span>
+                <span class="badge">Database Management Systems</span>
+                <span class="badge">Data Structures</span>
+                <span class="badge">Software Engineering</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS & TECH STACK SECTION ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Skills</span>
+          <h2>Skills &amp; Tech Stack</h2>
+          <p class="section-desc">Technologies and tools I use to design, build, and ship web applications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card card">
+            <div class="skill-icon" aria-hidden="true">💻</div>
+            <h3>Languages &amp; Frontend</h3>
+            <ul class="skill-list">
+              <li>C</li>
+              <li>Python</li>
+              <li>JavaScript (ES6+)</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Vue.js</li>
+            </ul>
+          </div>
+
+          <div class="skill-card card">
+            <div class="skill-icon" aria-hidden="true">🗄️</div>
+            <h3>Backend &amp; Database</h3>
+            <ul class="skill-list">
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+
+          <div class="skill-card card">
+            <div class="skill-icon" aria-hidden="true">🛠️</div>
+            <h3>Tools &amp; Design</h3>
+            <ul class="skill-list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Adobe Illustrator</li>
+              <li>Photoshop</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS SECTION (blank templates) ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-tag">Projects</span>
+          <h2>Featured Projects</h2>
+          <p class="section-desc">A selection of things I've built. Replace the placeholders below with your own work.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- ===== PROJECT CARD TEMPLATE #1 ===== -->
+          <article class="project-card card">
+            <div class="project-thumb">
+              <!-- [Project Image/Thumbnail]: replace src below with your project screenshot -->
+              <img src="assets/project-placeholder.svg" alt="Project 1 thumbnail" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <!-- [Project Title] -->
+              <h3 class="project-title">Project Title One</h3>
+              <!-- [Short Description] -->
+              <p class="project-desc">
+                A short, punchy description of the project goes here — what it does and the problem it solves.
+              </p>
+              <!-- [Tech Stack Badges] -->
+              <div class="badge-row">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!-- [Live Demo Link] -->
+                <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <!-- [GitHub Code Link] -->
+                <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT CARD TEMPLATE #2 ===== -->
+          <article class="project-card card">
+            <div class="project-thumb">
+              <!-- [Project Image/Thumbnail]: replace src below with your project screenshot -->
+              <img src="assets/project-placeholder.svg" alt="Project 2 thumbnail" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <!-- [Project Title] -->
+              <h3 class="project-title">Project Title Two</h3>
+              <!-- [Short Description] -->
+              <p class="project-desc">
+                A short, punchy description of the project goes here — what it does and the problem it solves.
+              </p>
+              <!-- [Tech Stack Badges] -->
+              <div class="badge-row">
+                <span class="badge">Vue.js</span>
+                <span class="badge">PHP</span>
+                <span class="badge">MySQL</span>
+              </div>
+              <div class="project-links">
+                <!-- [Live Demo Link] -->
+                <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <!-- [GitHub Code Link] -->
+                <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ===== PROJECT CARD TEMPLATE #3 ===== -->
+          <article class="project-card card">
+            <div class="project-thumb">
+              <!-- [Project Image/Thumbnail]: replace src below with your project screenshot -->
+              <img src="assets/project-placeholder.svg" alt="Project 3 thumbnail" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <!-- [Project Title] -->
+              <h3 class="project-title">Project Title Three</h3>
+              <!-- [Short Description] -->
+              <p class="project-desc">
+                A short, punchy description of the project goes here — what it does and the problem it solves.
+              </p>
+              <!-- [Tech Stack Badges] -->
+              <div class="badge-row">
+                <span class="badge">Python</span>
+                <span class="badge">REST API</span>
+              </div>
+              <div class="project-links">
+                <!-- [Live Demo Link] -->
+                <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                <!-- [GitHub Code Link] -->
+                <a href="#" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ CONTACT & SOCIAL FOOTER ============ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-cta">
+        <h2>Let's build something together.</h2>
+        <p>Have a project in mind or just want to say hi? My inbox is always open.</p>
+        <a href="mailto:kheeraj.das@example.com" class="btn btn-primary">Say Hello 👋</a>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/your-username" class="social-link" target="_blank" rel="noopener noreferrer"
+          aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.17.69-3.84-1.35-3.84-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.74 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.13 1.17a10.8 10.8 0 0 1 5.7 0c2.17-1.48 3.13-1.17 3.13-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .3.2.66.79.55A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z" />
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/your-profile" class="social-link" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path
+              d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.48v6.26ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z" />
+          </svg>
+        </a>
+        <a href="mailto:kheeraj.das@example.com" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+            <path
+              d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm1.4 2 8.6 6.45L20.6 6H3.4Zm17.6 2.1-8.06 6.05a1 1 0 0 1-1.18 0L3 8.1V18h18V8.1Z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> Kheeraj Das. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
